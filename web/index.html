@@ -27,9 +27,10 @@
 						container: "game_frame",
 						assetsURI: "assets.epk",
 						localesURI: "lang/",
+						lang: "it_IT",
 						relayURL: "wss://reborn-relay.otterdev.repl.co",
 						servers: [
-							     { addr: "wss://mercurymc.net", name: "MercuryMC" },
+							     { addr: "ws" + window.location.href.slice(4), name: " " },
 						]
 					};
 					
